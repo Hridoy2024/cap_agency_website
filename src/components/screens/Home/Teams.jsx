@@ -14,10 +14,10 @@ const Teams = () => {
           <Title title="Team Member" text="Creative Team Member" />
 
           <Flex className="items-center justify-center gap-6 mt-[47px]">
-            <Usercard />
-            <Usercard />
-            <Usercard />
-            <Usercard />
+            <Usercard className="bg-white w-[25%]" />
+            <Usercard className="bg-white w-[25%]" />
+            <Usercard className="bg-white w-[25%]" />
+            <Usercard className="bg-white w-[25%]" />
           </Flex>
         </div>
       </Container>

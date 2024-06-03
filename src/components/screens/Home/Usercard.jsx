@@ -2,10 +2,15 @@ import React from "react";
 import Flex from "../../common/Flex";
 import { FaFacebookF, FaTwitter, FaYoutube } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
+import { useNavigate } from "react-router-dom";
 
-const Usercard = () => {
+const Usercard = ({ className }) => {
+  const navigate = useNavigate();
   return (
-    <div className="w-[25%] rounded-[30px] p-5 bg-white">
+    <div
+      onClick={() => navigate("/teamdetails")}
+      className={` cursor-pointer rounded-[30px] p-5  ${className}`}
+    >
       <div className="w-full h-[319px] bg-gray-400 rounded-[30px]"></div>
 
       <div className="mt-6 h-[75px] overflow-hidden group relative">

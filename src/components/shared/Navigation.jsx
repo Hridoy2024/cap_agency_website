@@ -8,6 +8,7 @@ import { FaAngleDown } from "react-icons/fa6";
 import { IoSearchOutline } from "react-icons/io5";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 import { FaArrowRightLong } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 const Navigation = () => {
   return (
     <nav className=" fixed z-50 w-full top-[42px]">
@@ -16,42 +17,44 @@ const Navigation = () => {
           <Flex className="items-center justify-between bg-white  rounded-l-[500px]">
             <div className="h-[102px] w-[50vw] bg-white absolute top-0 right-0 z-[-1]"></div>
             <div className="w-3/12">
-              <Image src="/logo.png" alt="logo" className="ml-3" />
+              <Link to="/">
+                <Image src="/logo.png" alt="logo" className="ml-3" />
+              </Link>
             </div>
             <div className="w-6/12">
               <UL className="flex items-center gap-[22px]">
                 <LI className="py-[38px] border-b-[2px] border-white group hover:border-orange">
-                  <a
-                    href=""
+                  <Link
+                    to="/"
                     className=" flex items-center font-poppins font-normal xl:text-[16px] text-maintext group-hover:text-orange"
                   >
                     Home <FaAngleDown />
-                  </a>
+                  </Link>
                 </LI>
 
                 <LI className="py-[38px] border-b-[2px] border-white group hover:border-orange">
-                  <a
-                    href=""
+                  <Link
+                    to="/about"
                     className=" flex items-center font-poppins font-normal xl:text-[16px] text-maintext group-hover:text-orange"
                   >
                     About
-                  </a>
+                  </Link>
                 </LI>
                 <LI className="py-[38px] border-b-[2px] border-white group hover:border-orange">
-                  <a
-                    href=""
+                  <Link
+                    to="/service"
                     className=" flex items-center font-poppins font-normal xl:text-[16px] text-maintext group-hover:text-orange"
                   >
                     Services <FaAngleDown />
-                  </a>
+                  </Link>
                 </LI>
                 <LI className="py-[38px] border-b-[2px] border-white group hover:border-orange">
-                  <a
-                    href=""
+                  <Link
+                    to="/teams"
                     className=" flex items-center font-poppins font-normal xl:text-[16px] text-maintext group-hover:text-orange"
                   >
                     Team <FaAngleDown />
-                  </a>
+                  </Link>
                 </LI>
                 <LI className="py-[38px] border-b-[2px] border-white group hover:border-orange">
                   <a

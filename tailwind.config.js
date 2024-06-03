@@ -6,6 +6,9 @@ export default {
       maxWidth: {
         container: "1440px",
       },
+      boxShadow: {
+        shadowOne: "0px 0px 45px 0px rgba(0, 0, 0, 0.08)",
+      },
 
       backgroundImage: {
         homeBanner: "url('/banner.png')",
@@ -13,6 +16,8 @@ export default {
         conactbg: "url('/contactbg.png')",
         teamsbg: "url('/teams.png')",
         hirebg: "url('/hire.png')",
+        pagebannerbg: "url('/pagebanner.png')",
+        supportbannerbg: "url('/support.png')",
         footerbg: "url('/footer.png')",
         lenearOne: "linear-gradient(90deg, #FE651B -0.02%, #FFAA52 100.06%)",
       },

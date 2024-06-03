@@ -1,7 +1,9 @@
 import React from "react";
 import Flex from "../../common/Flex";
+import { useNavigate } from "react-router-dom";
 
 const Servicecard = () => {
+  const navigate = useNavigate();
   return (
     <Flex className="p-5 rounded-[50px] bg-[#F4F4FF] items-center gap-[60px] mb-[30px]">
       <div className="w-3/12">
@@ -20,7 +22,10 @@ const Servicecard = () => {
         </p>
       </div>
       <div className="w-3/12">
-        <button className=" font-dm font-normal xl:text-[18px] leading-[30px] text-maintext hover:text-white py-[15px] px-[33px] rounded-full border-[1px] border-orange bg-transparent  hover:bg-lenearOne flex items-center justify-center">
+        <button
+          onClick={() => navigate("/servicedetail")}
+          className=" font-dm font-normal xl:text-[18px] leading-[30px] text-maintext hover:text-white py-[15px] px-[33px] rounded-full border-[1px] border-orange bg-transparent  hover:bg-lenearOne flex items-center justify-center"
+        >
           Read More
         </button>
       </div>
