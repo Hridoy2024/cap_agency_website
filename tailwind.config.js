@@ -20,6 +20,8 @@ export default {
         supportbannerbg: "url('/support.png')",
         footerbg: "url('/footer.png')",
         lenearOne: "linear-gradient(90deg, #FE651B -0.02%, #FFAA52 100.06%)",
+        lenearTwo:
+          "linear-gradient(270deg, #F4F4FF 20.83%, rgba(244, 244, 255, 0.00) 100%)",
       },
 
       colors: {

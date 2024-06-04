@@ -1,9 +1,12 @@
 import React from "react";
 import Flex from "../../common/Flex";
+import { useNavigate } from "react-router-dom";
 
 const Portfoliocard = ({ className }) => {
+  const navigate = useNavigate();
   return (
     <div
+      onClick={() => navigate("/portfoliodetails")}
       className={` ${className} cursor-pointer group relative rounded-t-[10px] rounded-b-[10px] hover:rounded-b-[50px] flex items-end h-[462px] bg-[#F4F4F4]`}
     >
       <div className="w-full h-full duration-150 ease-in-out rounded-t-[10px] rounded-b-[10px] absolute top-0 left-0 bg-gray-400 group-hover:h-[75%] group-hover:rounded-b-[50px] "></div>

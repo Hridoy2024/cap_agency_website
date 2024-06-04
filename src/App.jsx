@@ -13,6 +13,12 @@ import ServiceDetails from "./pages/ServiceDetails";
 import TeamPage from "./pages/TeamPage";
 import TeamDetails from "./pages/TeamDetails";
 import Portfolio from "./pages/Portfolio";
+import Portfoliodetails from "./pages/Portfoliodetails";
+import PricingPage from "./pages/PricingPage";
+import TestimonialPage from "./pages/TestimonialPage";
+import FAQPage from "./pages/FAQPage";
+import ShopPage from "./pages/ShopPage";
+import Product from "./pages/Product";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -24,6 +30,12 @@ const router = createBrowserRouter(
       <Route path="/teams" element={<TeamPage />} />
       <Route path="/teamdetails" element={<TeamDetails />} />
       <Route path="/portfolio" element={<Portfolio />} />
+      <Route path="/portfoliodetails" element={<Portfoliodetails />} />
+      <Route path="/pricing" element={<PricingPage />} />
+      <Route path="/testimonial" element={<TestimonialPage />} />
+      <Route path="/faq" element={<FAQPage />} />
+      <Route path="/shop" element={<ShopPage />} />
+      <Route path="/product" element={<Product />} />
     </Route>
   )
 );
