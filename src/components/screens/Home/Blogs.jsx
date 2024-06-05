@@ -14,9 +14,9 @@ const Blogs = () => {
         <Title title="Our Blog" text="Latest Blogs & Articles" />
 
         <Flex className="items-center gap-6 mt-[47px]">
-          <Blogcard />
-          <Blogcard />
-          <Blogcard />
+          <Blogcard className="w-[32%]" />
+          <Blogcard className="w-[32%]" />
+          <Blogcard className="w-[32%]" />
         </Flex>
       </Container>
     </section>

@@ -4,11 +4,11 @@ import { CiUser } from "react-icons/ci";
 import { IoChatbubblesOutline } from "react-icons/io5";
 import { LuEye } from "react-icons/lu";
 
-const Blogcard = () => {
+const Blogcard = ({ className }) => {
   return (
-    <div className="w-[32%] rounded-[30px] bg-[#F4F4FF]">
+    <div className={`${className} rounded-[30px] bg-[#F4F4FF]`}>
       <div className="rounded-[30px] h-[387px] bg-gray-400 relative">
-        <Flex className=" absolute bottom-0 left-0 items-center justify-center flex-col w-[116px] h-[98px] rounded-[30px] bg-primary">
+        <Flex className=" absolute bottom-0 left-0 items-center z-30 justify-center flex-col w-[116px] h-[98px] rounded-[30px] bg-primary">
           <p className=" font-dm font-medium xl:text-[20px] text-white">
             09 Dec
           </p>

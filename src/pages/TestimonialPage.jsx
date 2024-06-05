@@ -4,8 +4,8 @@ import Container from "../components/common/Container";
 import Title from "../components/common/Title";
 import Comment from "../components/screens/Testimonial/Comment";
 import Slider from "react-slick";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const TestimonialPage = () => {
   const [slide, setSlide] = useState(0);

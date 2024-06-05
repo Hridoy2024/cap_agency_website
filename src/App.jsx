@@ -19,6 +19,11 @@ import TestimonialPage from "./pages/TestimonialPage";
 import FAQPage from "./pages/FAQPage";
 import ShopPage from "./pages/ShopPage";
 import Product from "./pages/Product";
+import CartPage from "./pages/CartPage";
+import Checkoutpage from "./pages/Checkoutpage";
+import AllBlogs from "./pages/AllBlogs";
+import Error from "./pages/Error";
+import Contact from "./pages/Contact";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -36,6 +41,11 @@ const router = createBrowserRouter(
       <Route path="/faq" element={<FAQPage />} />
       <Route path="/shop" element={<ShopPage />} />
       <Route path="/product" element={<Product />} />
+      <Route path="/cart" element={<CartPage />} />
+      <Route path="/checkout" element={<Checkoutpage />} />
+      <Route path="/blogs" element={<AllBlogs />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="*" element={<Error />} />
     </Route>
   )
 );

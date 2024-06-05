@@ -65,20 +65,20 @@ const Navigation = () => {
                   </a>
                 </LI>
                 <LI className="py-[38px] border-b-[2px] border-white group hover:border-orange">
-                  <a
-                    href=""
+                  <Link
+                    to="/blogs"
                     className=" flex items-center font-poppins font-normal xl:text-[16px] text-maintext group-hover:text-orange"
                   >
                     News <FaAngleDown />
-                  </a>
+                  </Link>
                 </LI>
                 <LI className="py-[38px] border-b-[2px] border-white group hover:border-orange">
-                  <a
-                    href=""
+                  <Link
+                    to="/contact"
                     className=" flex items-center font-poppins font-normal xl:text-[16px] text-maintext group-hover:text-orange"
                   >
                     Contact <FaAngleDown />
-                  </a>
+                  </Link>
                 </LI>
               </UL>
             </div>
@@ -90,7 +90,8 @@ const Navigation = () => {
                 >
                   <IoSearchOutline className="text-[22px] text-primary" />
                 </a>
-                <a
+                <Link
+                  to="/cart"
                   href=""
                   className=" relative  flex items-center justify-center w-[56px] h-[56px] bg-[#F4F4FF] rounded-full border-[1px] border-primary"
                 >
@@ -98,7 +99,7 @@ const Navigation = () => {
                     1
                   </div>
                   <HiOutlineShoppingBag className="text-[22px] text-primary" />
-                </a>
+                </Link>
 
                 <button className=" flex items-center justify-center gap-[10px] py-[15px] px-[30px] rounded-full font-dm font-normal xl:text-[18px] text-white bg-primary">
                   Free Quote <FaArrowRightLong />
