@@ -5,9 +5,9 @@ import ServiceCard from "./ServiceCard";
 
 const ServiceSection = () => {
   return (
-    <section className="mt-[120px]">
+    <section className=" mt-[50px] 2xl:mt-[120px]">
       <Container>
-        <Flex className="items-center gap-6">
+        <Flex className="items-center gap-6 flex-col sm:flex-row sm:flex-wrap">
           <ServiceCard />
           <ServiceCard />
           <ServiceCard />

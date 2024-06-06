@@ -10,11 +10,11 @@ const ServiceDetails = () => {
     <main>
       <PageBanner title={"Service Details"} />
       <Container>
-        <Flex className="mt-[120px] items-start gap-[90px] justify-between">
-          <div className="w-8/12">
+        <Flex className=" mt-[50px] flex-col md:flex-row 2xl:mt-[120px] items-start gap-[90px] justify-between">
+          <div className=" w-full md:w-7/12 lg:w-8/12">
             <ServiceMain />
           </div>
-          <div className="w-4/12">
+          <div className=" w-full md:w-5/12 lg:w-4/12">
             <ServiceSide />
           </div>
         </Flex>

@@ -25,10 +25,10 @@ const Support = () => {
         </p>
 
         <Flex className="items-center justify-center gap-[30px] mt-[49px]">
-          <button className=" font-dm font-normal xl:text-[18px] leading-[30px] text-white py-[15px] px-[33px] rounded-full border-[1px] border-orange bg-transparent  hover:bg-lenearOne flex items-center justify-center">
+          <button className=" font-dm font-normal text-[12px] md:text-[15px] 2xl:text-[18px] leading-[30px] text-white py-3 px-4 2xl:py-[15px] 2xl:px-[33px] rounded-full border-[1px] border-orange bg-transparent  hover:bg-lenearOne flex items-center justify-center">
             Set Free Quotes
           </button>
-          <button className=" font-dm font-normal xl:text-[18px] leading-[30px] text-white py-[15px] px-[33px] rounded-full border-[1px] border-orange bg-transparent  hover:bg-lenearOne flex items-center justify-center">
+          <button className=" font-dm font-normal text-[12px] md:text-[15px] 2xl:text-[18px] leading-[30px] text-white py-3 px-4 2xl:py-[15px] 2xl:px-[33px] rounded-full border-[1px] border-orange bg-transparent  hover:bg-lenearOne flex items-center justify-center">
             Contact For Us
           </button>
         </Flex>

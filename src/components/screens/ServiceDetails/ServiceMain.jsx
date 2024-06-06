@@ -27,11 +27,11 @@ const ServiceMain = () => {
         </p>
       </div>
 
-      <Flex className="mt-12 justify-between">
-        <div className="w-1/2">
+      <Flex className="mt-12 justify-between flex-col md:flex-row">
+        <div className="w-full md:w-1/2">
           <Image src="/detailsimg.png" />
         </div>
-        <div className="w-1/2">
+        <div className="w-full md:w-1/2">
           <h2 className=" font-nunito font-bold xl:text-[25px] text-maintext">
             Our Service Process
           </h2>

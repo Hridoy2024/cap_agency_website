@@ -6,11 +6,11 @@ import PricingCard from "./PricingCard";
 
 const Pricing = () => {
   return (
-    <section className="mt-[120px]">
+    <section className="mt-[50px] 2xl:mt-[120px]">
       <Container>
         <Title title={"Our Pricing"} text={"Our Best Pricing Plan"} />
 
-        <Flex className="items-center gap-6 mt-[47px] justify-center">
+        <Flex className="items-center gap-6 mt-[47px] justify-center flex-col sm:flex-row sm:flex-wrap sm:gap-1">
           <PricingCard />
           <PricingCard />
           <PricingCard />

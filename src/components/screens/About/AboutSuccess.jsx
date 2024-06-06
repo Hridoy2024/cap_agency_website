@@ -9,13 +9,13 @@ import { FaCheckCircle } from "react-icons/fa";
 
 const AboutSuccess = () => {
   return (
-    <section className="mt-[120px]">
+    <section className="mt-[50px] 2xl:mt-[120px]">
       <Container>
-        <Flex className="items-center justify-between">
-          <div className="w-1/2">
+        <Flex className="items-center flex-col md:flex-row justify-between">
+          <div className=" w-full md:w-1/2">
             <Image src="/aboutpage.png" />
           </div>
-          <div className="w-1/2">
+          <div className=" w-full md:w-1/2">
             <Flex className="items-center gap-[10px]">
               <TbTargetArrow className="text-[22px] text-orange" />{" "}
               <p className=" font-dm font-medium xl:text-[20px] text-primary">

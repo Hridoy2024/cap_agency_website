@@ -14,19 +14,19 @@ const TeamPage = () => {
           <Title title={"Team Member"} text={"Creative Team Member"} />
         </div>
 
-        <Flex className="mt-[47px] flex-wrap gap-6 items-center justify-center">
-          <Usercard className=" bg-[#F4F4FF] w-[23%]" />
-          <Usercard className=" bg-[#F4F4FF] w-[23%]" />
-          <Usercard className=" bg-[#F4F4FF] w-[23%]" />
-          <Usercard className=" bg-[#F4F4FF] w-[23%]" />
-          <Usercard className=" bg-[#F4F4FF] w-[23%]" />
-          <Usercard className=" bg-[#F4F4FF] w-[23%]" />
-          <Usercard className=" bg-[#F4F4FF] w-[23%]" />
-          <Usercard className=" bg-[#F4F4FF] w-[23%]" />
-          <Usercard className=" bg-[#F4F4FF] w-[23%]" />
-          <Usercard className=" bg-[#F4F4FF] w-[23%]" />
-          <Usercard className=" bg-[#F4F4FF] w-[23%]" />
-          <Usercard className=" bg-[#F4F4FF] w-[23%]" />
+        <Flex className="mt-[47px] flex-wrap flex-col sm:flex-row sm:flex-wrap gap-6 items-center justify-center">
+          <Usercard className=" bg-[#F4F4FF] w-full sm:w-[48%] md:w-[30%] lg:w-[22%] xl:text-[23%]" />
+          <Usercard className=" bg-[#F4F4FF] w-full sm:w-[48%] md:w-[30%] lg:w-[22%] xl:text-[23%]" />
+          <Usercard className=" bg-[#F4F4FF] w-full sm:w-[48%] md:w-[30%] lg:w-[22%] xl:text-[23%]" />
+          <Usercard className=" bg-[#F4F4FF] w-full sm:w-[48%] md:w-[30%] lg:w-[22%] xl:text-[23%]" />
+          <Usercard className=" bg-[#F4F4FF] w-full sm:w-[48%] md:w-[30%] lg:w-[22%] xl:text-[23%]" />
+          <Usercard className=" bg-[#F4F4FF] w-full sm:w-[48%] md:w-[30%] lg:w-[22%] xl:text-[23%]" />
+          <Usercard className=" bg-[#F4F4FF] w-full sm:w-[48%] md:w-[30%] lg:w-[22%] xl:text-[23%]" />
+          <Usercard className=" bg-[#F4F4FF] w-full sm:w-[48%] md:w-[30%] lg:w-[22%] xl:text-[23%]" />
+          <Usercard className=" bg-[#F4F4FF] w-full sm:w-[48%] md:w-[30%] lg:w-[22%] xl:text-[23%]" />
+          <Usercard className=" bg-[#F4F4FF] w-full sm:w-[48%] md:w-[30%] lg:w-[22%] xl:text-[23%]" />
+          <Usercard className=" bg-[#F4F4FF] w-full sm:w-[48%] md:w-[30%] lg:w-[22%] xl:text-[23%]" />
+          <Usercard className=" bg-[#F4F4FF] w-full sm:w-[48%] md:w-[30%] lg:w-[22%] xl:text-[23%]" />
         </Flex>
       </Container>
     </main>

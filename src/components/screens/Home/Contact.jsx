@@ -6,12 +6,12 @@ import { TbTargetArrow } from "react-icons/tb";
 
 const Contact = () => {
   return (
-    <section className="mt-[211px]">
+    <section className="mt-[200px] 2xl:mt-[211px]">
       <Container>
-        <div className=" bg-conactbg px-[80px] pt-[186px] pb-[80px]">
-          <Flex className="relative">
-            <div className=" border-[16px] border-white py-[51px] px-[60px] rounded-full bg-lenearOne h-[182px w-[80%] absolute top-[-280px] left-[50%] translate-x-[-50%]">
-              <Flex className="items-center justify-between">
+        <div className=" bg-conactbg bg-cover bg-no-repeat w-full px-3 2xl:px-[80px] pt-[46px] md:pt-[150px] 2xl:pt-[186px] pb-[80px]">
+          <Flex className="relative flex-col justify-between gap-10 md:flex-row">
+            <div className=" border-[16px] hidden lg:flex items-center justify-between border-white xl:py-[51px] xl:px-[60px] rounded-full bg-lenearOne h-[182px] w-[80%]  absolute top-[-250px] 2xl:top-[-280px] left-[50%] translate-x-[-50%]">
+              <Flex className="items-center justify-between w-full">
                 <div className="w-1/3">
                   <Flex className="items-center gap-7">
                     <Image src="/icon1.png" />
@@ -54,10 +54,10 @@ const Contact = () => {
               </Flex>
             </div>
 
-            <div className="w-1/2">
+            <div className=" w-full md:w-1/2">
               <Image src="contactplay.png" alt="con" />
             </div>
-            <div className="w-1/2">
+            <div className=" w-full md:w-1/2">
               <div>
                 <Flex className="items-center gap-[10px]">
                   <TbTargetArrow className="text-[22px] text-orange" />{" "}
@@ -71,16 +71,16 @@ const Contact = () => {
                 </h1>
 
                 <form action="">
-                  <Flex className="items-center gap-5 mb-5 ">
+                  <Flex className="items-center gap-5 mb-5 flex-col md:flex-row ">
                     <input
-                      className="py-[15px] px-[26px] rounded-full w-[50%] outline-none font-dm font-normal xl:text-[16px] text-[#9a9a9a]"
+                      className="py-[15px] px-[26px] rounded-full w-full md:w-[50%] outline-none font-dm font-normal xl:text-[16px] text-[#9a9a9a]"
                       type="text"
                       name=""
                       id=""
                       placeholder="Your Name"
                     />
                     <input
-                      className="py-[15px] px-[26px] rounded-full w-[50%] outline-none font-dm font-normal xl:text-[16px] text-[#9a9a9a]"
+                      className="py-[15px] px-[26px] rounded-full w-full md:w-[50%] outline-none font-dm font-normal xl:text-[16px] text-[#9a9a9a]"
                       type="text"
                       name=""
                       id=""

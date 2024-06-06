@@ -24,6 +24,7 @@ import Checkoutpage from "./pages/Checkoutpage";
 import AllBlogs from "./pages/AllBlogs";
 import Error from "./pages/Error";
 import Contact from "./pages/Contact";
+import BlogDetailsPage from "./pages/BlogDetailsPage";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -44,6 +45,7 @@ const router = createBrowserRouter(
       <Route path="/cart" element={<CartPage />} />
       <Route path="/checkout" element={<Checkoutpage />} />
       <Route path="/blogs" element={<AllBlogs />} />
+      <Route path="/blogdetails" element={<BlogDetailsPage />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<Error />} />
     </Route>

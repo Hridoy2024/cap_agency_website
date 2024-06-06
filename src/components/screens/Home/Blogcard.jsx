@@ -3,11 +3,16 @@ import Flex from "../../common/Flex";
 import { CiUser } from "react-icons/ci";
 import { IoChatbubblesOutline } from "react-icons/io5";
 import { LuEye } from "react-icons/lu";
+import { useNavigate } from "react-router-dom";
 
 const Blogcard = ({ className }) => {
+  const navigate = useNavigate();
   return (
-    <div className={`${className} rounded-[30px] bg-[#F4F4FF]`}>
-      <div className="rounded-[30px] h-[387px] bg-gray-400 relative">
+    <div
+      onClick={() => navigate("/blogdetails")}
+      className={`${className} rounded-[30px] bg-[#F4F4FF] cursor-pointer`}
+    >
+      <div className="rounded-[30px] h-[250px] 2xl:h-[387px] bg-gray-400 relative">
         <Flex className=" absolute bottom-0 left-0 items-center z-30 justify-center flex-col w-[116px] h-[98px] rounded-[30px] bg-primary">
           <p className=" font-dm font-medium xl:text-[20px] text-white">
             09 Dec
@@ -23,19 +28,19 @@ const Blogcard = ({ className }) => {
         <Flex className="items-center gap-10">
           <Flex className="items-center gap-[6px]">
             <CiUser className=" text-primary" />{" "}
-            <p className=" font-dm font-normal xl:text-[16px] leading-[26px] text-secondarytext">
+            <p className=" font-dm font-normal text-[10px] md:text-[12px] 2xl:text-[16px] leading-[26px] text-secondarytext">
               by Admin
             </p>
           </Flex>
           <Flex className="items-center gap-[6px]">
             <IoChatbubblesOutline className=" text-primary" />{" "}
-            <p className=" font-dm font-normal xl:text-[16px] leading-[26px] text-secondarytext">
+            <p className=" font-dm font-normal text-[10px] md:text-[12px] 2xl:text-[16px] leading-[26px] text-secondarytext">
               25
             </p>
           </Flex>
           <Flex className="items-center gap-[6px]">
             <LuEye className=" text-primary" />{" "}
-            <p className=" font-dm font-normal xl:text-[16px] leading-[26px] text-secondarytext">
+            <p className=" font-dm font-normal text-[10px] md:text-[12px] 2xl:text-[16px] leading-[26px] text-secondarytext">
               120 Views
             </p>
           </Flex>

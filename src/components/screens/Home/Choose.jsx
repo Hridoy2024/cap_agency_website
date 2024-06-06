@@ -6,10 +6,10 @@ import Image from "../../common/Image";
 
 const Choose = () => {
   return (
-    <section className="mt-[120px] bg-chooseBg py-[120px]">
+    <section className="mt-[50px] 2xl:mt-[120px] bg-chooseBg py-[120px]">
       <Container>
-        <Flex className="items-center justify-between">
-          <div className="w-1/2">
+        <Flex className="items-center justify-between flex-col md:flex-row gap-5">
+          <div className="w-full md:w-1/2">
             <div>
               <Flex className="items-center gap-[10px]">
                 <TbTargetArrow className="text-[22px] text-orange" />{" "}
@@ -92,14 +92,14 @@ const Choose = () => {
               </div>
             </div>
           </div>
-          <div className="w-1/2">
-            <div className=" h-[460px] w-full rounded-[50px] bg-gray-300 relative">
-              <div className=" absolute bottom-[30px] left-[50%] translate-x-[-50%] bg-white py-[15px] px-[50px] rounded-full xl:w-[364px]">
-                <Flex className="items-end gap-[10px]">
-                  <p className=" font-nunito font-bold xl:text-[46px] leading-[56px] text-orange">
+          <div className="w-full md:w-1/2">
+            <div className=" h-[320px] 2xl:h-[460px] w-full rounded-[50px] bg-gray-300 relative">
+              <div className=" absolute bottom-[30px] left-[50%] translate-x-[-50%] bg-white py-[12px] px-[13px] 2xl:py-[15px] 2xl:px-[50px] rounded-full w-[80%] xl:w-[364px]">
+                <Flex className=" justify-center items-center 2xl:items-end gap-[10px]">
+                  <p className=" font-nunito font-bold 2xl:text-[46px] leading-[56px] text-orange">
                     25
                   </p>
-                  <p className=" font-nunito font-bold xl:text-[25px] text-maintext">
+                  <p className=" font-nunito font-bold 2xl:text-[25px] text-maintext">
                     Years Experience
                   </p>
                 </Flex>

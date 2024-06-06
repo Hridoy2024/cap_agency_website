@@ -5,10 +5,10 @@ import Image from "../../common/Image";
 
 const Complete = () => {
   return (
-    <section className="mt-[120px]">
+    <section className=" mt-[50px] 2xl:mt-[120px]">
       <Container>
-        <Flex className="gap-6">
-          <div className="w-[25%] p-10 rounded-[20px] bg-[#F4F4FF]">
+        <Flex className="gap-3 2xl:gap-6 flex-row flex-wrap xl:flex-nowrap">
+          <div className=" w-[90%] sm:w-[45%] md:w-[24%] lg:w-[25%] mx-auto p-5 2xl:p-10 rounded-[20px] bg-[#F4F4FF]">
             <Flex className="items-center gap-5">
               <Image src="/icon_count.png" />
 
@@ -23,7 +23,7 @@ const Complete = () => {
               </div>
             </Flex>
           </div>
-          <div className="w-[25%] p-10 rounded-[20px] bg-[#F4F4FF]">
+          <div className=" w-[90%] sm:w-[45%] md:w-[24%] lg:w-[25%] mx-auto p-5 2xl:p-10 rounded-[20px] bg-[#F4F4FF]">
             <Flex className="items-center gap-5">
               <Image src="/icon_count.png" />
 
@@ -38,7 +38,7 @@ const Complete = () => {
               </div>
             </Flex>
           </div>
-          <div className="w-[25%] p-10 rounded-[20px] bg-[#F4F4FF]">
+          <div className=" w-[90%] sm:w-[45%] md:w-[24%] lg:w-[25%] mx-auto p-5 2xl:p-10 rounded-[20px] bg-[#F4F4FF]">
             <Flex className="items-center gap-5">
               <Image src="/icon_count.png" />
 
@@ -53,7 +53,7 @@ const Complete = () => {
               </div>
             </Flex>
           </div>
-          <div className="w-[25%] p-10 rounded-[20px] bg-[#F4F4FF]">
+          <div className=" w-[90%] sm:w-[45%] md:w-[24%] lg:w-[25%] mx-auto p-5 2xl:p-10 rounded-[20px] bg-[#F4F4FF]">
             <Flex className="items-center gap-5">
               <Image src="/icon_count.png" />
 

@@ -25,11 +25,11 @@ const TeamDetails = () => {
     <main>
       <PageBanner title="Team Details" />
       <Container>
-        <Flex className="mt-[120px] items-center p-[30px] bg-[#F4F4FF] gap-[147px]">
-          <div className="w-5/12">
-            <div className="w-[555px] h-[555px] bg-gray-400 rounded-[20px]"></div>
+        <Flex className="mt-[120px] flex-col lg:flex-row items-center p-[30px] bg-[#F4F4FF] gap-[147px]">
+          <div className="w-full lg:w-5/12">
+            <div className=" w-full 2xl:w-[555px] h-[555px] bg-gray-400 rounded-[20px]"></div>
           </div>
-          <div className="w-7/12">
+          <div className="w-full lg:w-7/12">
             <div>
               <h1 className=" font-nunito font-bold xl:text-[36px] leading-[56px] text-maintext">
                 David Phillips
@@ -134,8 +134,8 @@ const TeamDetails = () => {
           </div>
         </Flex>
 
-        <Flex className="mt-[56px] gap-[147px]">
-          <div className="w-5/12">
+        <Flex className="mt-[56px] flex-col lg:flex-row gap-[147px]">
+          <div className="w-full lg:w-5/12">
             <div className=" xl:w-[586px] mt-6">
               <div className="mb-[22px]">
                 <Flex className="items-center justify-between">
@@ -199,7 +199,7 @@ const TeamDetails = () => {
             </div>
           </div>
 
-          <div className="w-7/12">
+          <div className="w-full lg:w-7/12">
             <h1 className=" font-nunito font-bold xl:text-[46px] leading-[56px] text-maintext">
               Personal Experience and Skills
             </h1>
@@ -220,8 +220,8 @@ const TeamDetails = () => {
           </div>
         </Flex>
 
-        <Flex className="mt-[56px] gap-[50px]">
-          <div className="w-6/12">
+        <Flex className="mt-[56px] flex-col lg:flex-row gap-[50px]">
+          <div className="w-full lg:w-6/12">
             <h1 className=" font-nunito font-bold xl:text-[46px] leading-[56px] text-maintext">
               Career Guidelines
             </h1>
@@ -275,13 +275,13 @@ const TeamDetails = () => {
               </LI>
             </UL>
           </div>
-          <div className="w-6/12">
+          <div className="w-full lg:w-6/12">
             <Image src="/teamdetailsimg.png" className="w-full" />
           </div>
         </Flex>
 
-        <Flex className="mt-[111px] p-[50px] gap-[100px] rounded-[20px] bg-[#F4F4FF]">
-          <div className="w-1/2">
+        <Flex className="mt-[111px] flex-col lg:flex-row p-[50px] gap-[100px] rounded-[20px] bg-[#F4F4FF]">
+          <div className="w-full lg:w-1/2">
             <h1 className=" font-nunito font-bold xl:text-[46px] leading-[36px] text-maintext">
               Contact Me
             </h1>
@@ -327,7 +327,7 @@ const TeamDetails = () => {
               </button>
             </form>
           </div>
-          <div className="w-1/2">
+          <div className="w-full lg:w-1/2">
             <div className="w-full h-full rounded-[20px] bg-gray-400"> </div>
           </div>
         </Flex>

@@ -11,7 +11,7 @@ const Usercard = ({ className }) => {
       onClick={() => navigate("/teamdetails")}
       className={` cursor-pointer rounded-[30px] p-5  ${className}`}
     >
-      <div className="w-full h-[319px] bg-gray-400 rounded-[30px]"></div>
+      <div className="w-full h-[250px] 2xl:h-[319px] bg-gray-400 rounded-[30px]"></div>
 
       <div className="mt-6 h-[75px] overflow-hidden group relative">
         <div className=" opacity-100 duration-150 ease-in-out  group-hover:opacity-0">
