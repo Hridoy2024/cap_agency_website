@@ -10,9 +10,9 @@ const CartPage = () => {
     <main>
       <PageBanner title="Your Cart" />
       <Container>
-        <Flex className="justify-between mt-[120px] gap-6">
-          <div className="w-9/12">
-            <Flex className=" py-[26px] pl-[41px] gap-[15px] pr-[23px] bg-[#F4F4FF]">
+        <Flex className="justify-between mt-[50px] 2xl:mt-[120px] flex-col md:flex-row gap-6">
+          <div className="w-full md:w-9/12">
+            <Flex className=" hidden md:flex py-[26px] pl-[41px] gap-[15px] pr-[23px] bg-[#F4F4FF]">
               <div className="w-5/12">
                 <h2 className=" font-nunito font-medium xl:text-[22px] leading-[18px] text-maintext">
                   Products
@@ -50,7 +50,7 @@ const CartPage = () => {
             <CartItem />
             <CartItem />
 
-            <div className="w-[445px] h-[60px] relative mt-[50px]">
+            <div className=" w-auto 2xl:w-[445px] h-[60px] relative mt-[50px]">
               <input
                 className=" w-full py-5 px-6 rounded-full font-dm font-normal placeholder:text-[#CECECE] xl:text-[13px] leading-[24px] text-maintext border-[1px] border-[#F4F4FF]"
                 type="text"
@@ -64,7 +64,7 @@ const CartPage = () => {
               </button>
             </div>
           </div>
-          <div className="w-3/12">
+          <div className="w-full md:w-3/12">
             <Flex className="gap-[10px]">
               <button className=" font-nunito font-semibold xl:text-[16px] leading-[16px] text-maintext py-5 px-[26px] rounded-full bg-[#F4F4FF]">
                 Continue Shopping

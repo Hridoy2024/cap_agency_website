@@ -11,8 +11,8 @@ const Contact = () => {
     <main>
       <PageBanner title="Contact Us" />
       <Container>
-        <Flex className="mt-[120px] justify-between bg-[#F4F4FF]">
-          <div className="w-1/2 py-[55px] px-[66px] bg-[#F4F4FF] rounded-l-[20px]">
+        <Flex className="mt-[50px] 2xl:mt-[120px] flex-col md:flex-row justify-between bg-[#F4F4FF]">
+          <div className="w-full md:w-1/2 p-3 2xl:py-[55px] 2xl:px-[66px] bg-[#F4F4FF] rounded-l-[20px]">
             <h1 className=" font-nunito font-bold xl:text-[46px] leading-[36px] text-maintext">
               Contact With Us
             </h1>
@@ -20,16 +20,16 @@ const Contact = () => {
               Send us a message and we' ll respond as soon as possible
             </p>
             <form action="" className="mt-[25px]">
-              <Flex className="items-center gap-5">
+              <Flex className="items-center flex-col md:flex-row gap-5">
                 <input
-                  className="mb-5 py-[15px] px-[26px] bg-white rounded-full w-full font-dm font-normal xl:text-[16px] outline-none"
+                  className="mb-5 py-[15px] px-[26px] bg-white rounded-full w-full md:w-1/2 font-dm font-normal xl:text-[16px] outline-none"
                   placeholder="Your Name"
                   type="text"
                   name=""
                   id=""
                 />
                 <input
-                  className="mb-5 py-[15px] px-[26px] bg-white rounded-full w-full font-dm font-normal xl:text-[16px] outline-none"
+                  className="mb-5 py-[15px] px-[26px] bg-white rounded-full w-full md:w-1/2 font-dm font-normal xl:text-[16px] outline-none"
                   placeholder="Email Address"
                   type="text"
                   name=""
@@ -37,16 +37,16 @@ const Contact = () => {
                 />
               </Flex>
 
-              <Flex className="items-center gap-5">
+              <Flex className="items-center flex-col md:flex-row gap-5">
                 <input
-                  className="mb-5 py-[15px] px-[26px] bg-white rounded-full w-full font-dm font-normal xl:text-[16px] outline-none"
+                  className="mb-5 py-[15px] px-[26px] bg-white rounded-full w-full md:w-1/2 font-dm font-normal xl:text-[16px] outline-none"
                   placeholder="Email Address*"
                   type="text"
                   name=""
                   id=""
                 />
                 <input
-                  className="mb-5 py-[15px] px-[26px] bg-white rounded-full w-full font-dm font-normal xl:text-[16px] outline-none"
+                  className="mb-5 py-[15px] px-[26px] bg-white rounded-full w-full md:w-1/2 font-dm font-normal xl:text-[16px] outline-none"
                   placeholder="Phone Number*"
                   type="text"
                   name=""
@@ -74,7 +74,7 @@ const Contact = () => {
             </form>
           </div>
 
-          <div className="w-1/2  py-[55px] px-[66px] rounded-[20px] bg-primary">
+          <div className="w-full md:w-1/2 py-[55px] px-[66px] rounded-[20px] bg-primary">
             <h1 className=" font-nunito font-bold xl:text-[46px] leading-[36px] text-white">
               Need Any Help?
             </h1>
@@ -82,9 +82,9 @@ const Contact = () => {
               Call us or message and we' ll respond as soon as possible
             </p>
 
-            <Flex className="mt-[42px]">
-              <div className="w-1/2">
-                <Flex className="gap-[25px]">
+            <Flex className="mt-[42px] gap-4 flex-col lg:flex-row">
+              <div className="w-full lg:w-1/2">
+                <Flex className=" flex-col md:flex-row gap-[25px]">
                   <div className=" h-[60px] w-[60px] bg-lenearOne rounded-full flex items-center justify-center">
                     <FaPhone className=" text-[22px] text-white" />
                   </div>
@@ -104,22 +104,22 @@ const Contact = () => {
                   </div>
                 </Flex>
               </div>
-              <div className="w-1/2">
-                <Flex className="gap-[25px]">
+              <div className="w-full lg:w-1/2">
+                <Flex className=" flex-col md:flex-row gap-[25px]">
                   <div className=" h-[60px] w-[60px] bg-lenearOne rounded-full flex items-center justify-center">
-                    <BsEnvelopeFill className=" text-[22px] text-white" />
+                    <FaPhone className=" text-[22px] text-white" />
                   </div>
                   <div>
                     <h2 className=" font-nunito font-bold xl:text-[25px] leading-[25px] text-white">
-                      Email
+                      Phone
                     </h2>
 
                     <div className="mt-3">
                       <p className=" font-dm font-normal xl:text-[16px] leading-[26px] text-white">
-                        infoyour@gmail.com
+                        +(323) 9847 3847 383
                       </p>
                       <p className=" font-dm font-normal xl:text-[16px] leading-[26px] text-white">
-                        infoyour@gmail.com
+                        +(323) 9847 3847 383
                       </p>
                     </div>
                   </div>
@@ -128,7 +128,7 @@ const Contact = () => {
             </Flex>
 
             <div className="w-full mt-[46px]">
-              <Flex className="gap-[25px]">
+              <Flex className="gap-[25px] flex-col lg:flex-row">
                 <div className=" h-[60px] w-[60px] bg-lenearOne rounded-full flex items-center justify-center">
                   <BsEnvelopeFill className=" text-[22px] text-white" />
                 </div>

@@ -24,40 +24,40 @@ const Checkoutpage = () => {
           </Flex>
         </div>
 
-        <Flex className="mt-[120px] justify-between">
-          <div className="w-6/12">
-            <div className="p-[60px] rounded-[20px] bg-[#F4F4FF]">
+        <Flex className="mt-[50px] flex-col md:flex-row 2xl:mt-[120px] justify-between">
+          <div className="w-full md:w-6/12">
+            <div className="p-5 2xl:p-[60px] rounded-[20px] bg-[#F4F4FF]">
               <h1 className=" font-nunito font-bold xl:text-[26px] leading-[24px] text-maintext">
                 Billing Details
               </h1>
 
               <div className="mt-10">
-                <Flex className="gap-5 mb-5">
+                <Flex className="flex-col md:flex-row gap-5 mb-5">
                   <input
-                    className=" w-[50%] py-[17px] px-[25px] bg-white rounded-full font-dm font-normal placeholder:text-[#A4A4A4] xl:text-[13px] leading-[24px] text-maintext"
+                    className=" w-full md:w-[50%] py-[17px] px-[25px] bg-white rounded-full font-dm font-normal placeholder:text-[#A4A4A4] xl:text-[13px] leading-[24px] text-maintext"
                     type="text"
                     placeholder="First Name*"
                     name=""
                     id=""
                   />
                   <input
-                    className=" w-[50%] py-[17px] px-[25px] bg-white rounded-full font-dm font-normal placeholder:text-[#A4A4A4] xl:text-[13px] leading-[24px] text-maintext"
+                    className=" w-full md:w-[50%] py-[17px] px-[25px] bg-white rounded-full font-dm font-normal placeholder:text-[#A4A4A4] xl:text-[13px] leading-[24px] text-maintext"
                     type="text"
                     placeholder="Last Name*"
                     name=""
                     id=""
                   />
                 </Flex>
-                <Flex className="gap-5 mb-5">
+                <Flex className="flex-col md:flex-row gap-5 mb-5">
                   <input
-                    className=" w-[50%] py-[17px] px-[25px] bg-white rounded-full font-dm font-normal placeholder:text-[#A4A4A4] xl:text-[13px] leading-[24px] text-maintext"
+                    className=" w-full md:w-[50%] py-[17px] px-[25px] bg-white rounded-full font-dm font-normal placeholder:text-[#A4A4A4] xl:text-[13px] leading-[24px] text-maintext"
                     type="text"
                     placeholder="First Name*"
                     name=""
                     id=""
                   />
                   <input
-                    className=" w-[50%] py-[17px] px-[25px] bg-white rounded-full font-dm font-normal placeholder:text-[#A4A4A4] xl:text-[13px] leading-[24px] text-maintext"
+                    className=" w-full md:w-[50%] py-[17px] px-[25px] bg-white rounded-full font-dm font-normal placeholder:text-[#A4A4A4] xl:text-[13px] leading-[24px] text-maintext"
                     type="text"
                     placeholder="Last Name*"
                     name=""
@@ -84,16 +84,16 @@ const Checkoutpage = () => {
                   />
                 </Flex>
 
-                <Flex className="gap-5 mb-5">
+                <Flex className="flex-col md:flex-row gap-5 mb-5">
                   <input
-                    className=" w-[50%] py-[17px] px-[25px] bg-white rounded-full font-dm font-normal placeholder:text-[#A4A4A4] xl:text-[13px] leading-[24px] text-maintext"
+                    className="w-full md:w-[50%] py-[17px] px-[25px] bg-white rounded-full font-dm font-normal placeholder:text-[#A4A4A4] xl:text-[13px] leading-[24px] text-maintext"
                     type="text"
                     placeholder="Town / City*"
                     name=""
                     id=""
                   />
                   <input
-                    className=" w-[50%] py-[17px] px-[25px] bg-white rounded-full font-dm font-normal placeholder:text-[#A4A4A4] xl:text-[13px] leading-[24px] text-maintext"
+                    className="w-full md:w-[50%] py-[17px] px-[25px] bg-white rounded-full font-dm font-normal placeholder:text-[#A4A4A4] xl:text-[13px] leading-[24px] text-maintext"
                     type="text"
                     placeholder="Postcode / ZIP*"
                     name=""
@@ -123,7 +123,7 @@ const Checkoutpage = () => {
               </div>
             </div>
           </div>
-          <div className="w-5/12">
+          <div className="w-full md:w-5/12">
             <Order />
           </div>
         </Flex>

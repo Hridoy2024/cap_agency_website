@@ -13,16 +13,16 @@ const BlogsPagination = ({ itemsPerPage }) => {
     return (
       <>
         <Flex className="justify-between gap-6 flex-wrap">
-          <Blogcard className="w-[48.7%]" />
-          <Blogcard className="w-[48.7%]" />
-          <Blogcard className="w-[48.7%]" />
-          <Blogcard className="w-[48.7%]" />
-          <Blogcard className="w-[48.7%]" />
-          <Blogcard className="w-[48.7%]" />
-          <Blogcard className="w-[48.7%]" />
-          <Blogcard className="w-[48.7%]" />
-          <Blogcard className="w-[48.7%]" />
-          <Blogcard className="w-[48.7%]" />
+          <Blogcard className="w-full sm:w-[48%] md:w-[48%] xl:w-[45.7%] 2xl:w-[48.7%]" />
+          <Blogcard className="w-full sm:w-[48%] md:w-[48%] xl:w-[45.7%] 2xl:w-[48.7%]" />
+          <Blogcard className="w-full sm:w-[48%] md:w-[48%] xl:w-[45.7%] 2xl:w-[48.7%]" />
+          <Blogcard className="w-full sm:w-[48%] md:w-[48%] xl:w-[45.7%] 2xl:w-[48.7%]" />
+          <Blogcard className="w-full sm:w-[48%] md:w-[48%] xl:w-[45.7%] 2xl:w-[48.7%]" />
+          <Blogcard className="w-full sm:w-[48%] md:w-[48%] xl:w-[45.7%] 2xl:w-[48.7%]" />
+          <Blogcard className="w-full sm:w-[48%] md:w-[48%] xl:w-[45.7%] 2xl:w-[48.7%]" />
+          <Blogcard className="w-full sm:w-[48%] md:w-[48%] xl:w-[45.7%] 2xl:w-[48.7%]" />
+          <Blogcard className="w-full sm:w-[48%] md:w-[48%] xl:w-[45.7%] 2xl:w-[48.7%]" />
+          <Blogcard className="w-full sm:w-[48%] md:w-[48%] xl:w-[45.7%] 2xl:w-[48.7%]" />
         </Flex>
       </>
     );

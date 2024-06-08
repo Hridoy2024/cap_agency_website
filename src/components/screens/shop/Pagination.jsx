@@ -15,15 +15,15 @@ const Pagination = ({ itemsPerPage }) => {
     return (
       <>
         <Flex className=" flex-wrap justify-between gap-6">
-          <Productcard className="w-[31.8%]" />
-          <Productcard className="w-[31.8%]" />
-          <Productcard className="w-[31.8%]" />
-          <Productcard className="w-[31.8%]" />
-          <Productcard className="w-[31.8%]" />
-          <Productcard className="w-[31.8%]" />
-          <Productcard className="w-[31.8%]" />
-          <Productcard className="w-[31.8%]" />
-          <Productcard className="w-[31.8%]" />
+          <Productcard className=" w-full sm:w-[48%] md:w-[30%] lg:w-[30%] 2xl:w-[31.8%]" />
+
+          <Productcard className=" w-full sm:w-[48%] md:w-[30%] lg:w-[30%] 2xl:w-[31.8%]" />
+          <Productcard className=" w-full sm:w-[48%] md:w-[30%] lg:w-[30%] 2xl:w-[31.8%]" />
+          <Productcard className=" w-full sm:w-[48%] md:w-[30%] lg:w-[30%] 2xl:w-[31.8%]" />
+          <Productcard className=" w-full sm:w-[48%] md:w-[30%] lg:w-[30%] 2xl:w-[31.8%]" />
+          <Productcard className=" w-full sm:w-[48%] md:w-[30%] lg:w-[30%] 2xl:w-[31.8%]" />
+          <Productcard className=" w-full sm:w-[48%] md:w-[30%] lg:w-[30%] 2xl:w-[31.8%]" />
+          <Productcard className=" w-full sm:w-[48%] md:w-[30%] lg:w-[30%] 2xl:w-[31.8%]" />
         </Flex>
       </>
     );

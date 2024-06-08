@@ -45,19 +45,19 @@ const BlogsSide = () => {
 
         <UL>
           <LI className="my-1">
-            <Flex>
-              <div className="w-1/2">
-                <p className=" font-dm font-normal xl:text-[16px] leading-[50px] text-secondarytext">
+            <Flex className=" justify-between">
+              <div className="w-[80%] md:w-1/2">
+                <p className=" font-dm font-normal text-[12px] 2xl:text-[16px] leading-[50px] text-secondarytext">
                   Business Consulting(05)
                 </p>
               </div>
-              <div className="w-1/2">
+              <div className="w-[20%] md:w-1/2">
                 <Flex className="items-center justify-between">
-                  <span className="font-dm font-normal xl:text-[16px] leading-[50px] text-secondarytext">
+                  <span className=" hidden md:block font-dm font-normal text-[12px] 2xl:text-[16px] leading-[50px] text-secondarytext">
                     --------------
                   </span>
 
-                  <span className="font-dm font-normal xl:text-[16px] leading-[50px] text-secondarytext">
+                  <span className="font-dm font-normal text-[12px] 2xl:text-[16px] leading-[50px] text-secondarytext">
                     (05)
                   </span>
                 </Flex>
@@ -65,19 +65,19 @@ const BlogsSide = () => {
             </Flex>
           </LI>
           <LI className="my-1">
-            <Flex>
-              <div className="w-1/2">
-                <p className=" font-dm font-normal xl:text-[16px] leading-[50px] text-secondarytext">
+            <Flex className=" justify-between">
+              <div className="w-[80%] md:w-1/2">
+                <p className=" font-dm font-normal text-[12px] 2xl:text-[16px] leading-[50px] text-secondarytext">
                   Business Consulting(05)
                 </p>
               </div>
-              <div className="w-1/2">
+              <div className="w-[20%] md:w-1/2">
                 <Flex className="items-center justify-between">
-                  <span className="font-dm font-normal xl:text-[16px] leading-[50px] text-secondarytext">
+                  <span className=" hidden md:block font-dm font-normal text-[12px] 2xl:text-[16px] leading-[50px] text-secondarytext">
                     --------------
                   </span>
 
-                  <span className="font-dm font-normal xl:text-[16px] leading-[50px] text-secondarytext">
+                  <span className="font-dm font-normal text-[12px] 2xl:text-[16px] leading-[50px] text-secondarytext">
                     (05)
                   </span>
                 </Flex>
@@ -85,19 +85,19 @@ const BlogsSide = () => {
             </Flex>
           </LI>
           <LI className="my-1">
-            <Flex>
-              <div className="w-1/2">
-                <p className=" font-dm font-normal xl:text-[16px] leading-[50px] text-secondarytext">
+            <Flex className=" justify-between">
+              <div className="w-[80%] md:w-1/2">
+                <p className=" font-dm font-normal text-[12px] 2xl:text-[16px] leading-[50px] text-secondarytext">
                   Business Consulting(05)
                 </p>
               </div>
-              <div className="w-1/2">
+              <div className="w-[20%] md:w-1/2">
                 <Flex className="items-center justify-between">
-                  <span className="font-dm font-normal xl:text-[16px] leading-[50px] text-secondarytext">
+                  <span className=" hidden md:block font-dm font-normal text-[12px] 2xl:text-[16px] leading-[50px] text-secondarytext">
                     --------------
                   </span>
 
-                  <span className="font-dm font-normal xl:text-[16px] leading-[50px] text-secondarytext">
+                  <span className="font-dm font-normal text-[12px] 2xl:text-[16px] leading-[50px] text-secondarytext">
                     (05)
                   </span>
                 </Flex>
@@ -105,19 +105,19 @@ const BlogsSide = () => {
             </Flex>
           </LI>
           <LI className="my-1">
-            <Flex>
-              <div className="w-1/2">
-                <p className=" font-dm font-normal xl:text-[16px] leading-[50px] text-secondarytext">
+            <Flex className=" justify-between">
+              <div className="w-[80%] md:w-1/2">
+                <p className=" font-dm font-normal text-[12px] 2xl:text-[16px] leading-[50px] text-secondarytext">
                   Business Consulting(05)
                 </p>
               </div>
-              <div className="w-1/2">
+              <div className="w-[20%] md:w-1/2">
                 <Flex className="items-center justify-between">
-                  <span className="font-dm font-normal xl:text-[16px] leading-[50px] text-secondarytext">
+                  <span className=" hidden md:block font-dm font-normal text-[12px] 2xl:text-[16px] leading-[50px] text-secondarytext">
                     --------------
                   </span>
 
-                  <span className="font-dm font-normal xl:text-[16px] leading-[50px] text-secondarytext">
+                  <span className="font-dm font-normal text-[12px] 2xl:text-[16px] leading-[50px] text-secondarytext">
                     (05)
                   </span>
                 </Flex>
@@ -125,19 +125,19 @@ const BlogsSide = () => {
             </Flex>
           </LI>
           <LI className="my-1">
-            <Flex>
-              <div className="w-1/2">
-                <p className=" font-dm font-normal xl:text-[16px] leading-[50px] text-secondarytext">
+            <Flex className=" justify-between">
+              <div className="w-[80%] md:w-1/2">
+                <p className=" font-dm font-normal text-[12px] 2xl:text-[16px] leading-[50px] text-secondarytext">
                   Business Consulting(05)
                 </p>
               </div>
-              <div className="w-1/2">
+              <div className="w-[20%] md:w-1/2">
                 <Flex className="items-center justify-between">
-                  <span className="font-dm font-normal xl:text-[16px] leading-[50px] text-secondarytext">
+                  <span className=" hidden md:block font-dm font-normal text-[12px] 2xl:text-[16px] leading-[50px] text-secondarytext">
                     --------------
                   </span>
 
-                  <span className="font-dm font-normal xl:text-[16px] leading-[50px] text-secondarytext">
+                  <span className="font-dm font-normal text-[12px] 2xl:text-[16px] leading-[50px] text-secondarytext">
                     (05)
                   </span>
                 </Flex>
@@ -158,12 +158,12 @@ const BlogsSide = () => {
         </div>
 
         <Flex className="items-center mt-6 mb-[30px]">
-          <div className="w-3/12">
+          <div className="w-[45%] xl:w-3/12">
             <div className="h-[92px] w-[92px] rounded-[5px] bg-gray-300"></div>
           </div>
-          <div className="w-9/12">
+          <div className="w-[55%] xl:w-9/12">
             <div>
-              <h1 className=" font-nunito font-medium xl:text-[20px] text-maintext">
+              <h1 className=" font-nunito font-medium text-[15px] 2xl:text-[20px] text-maintext">
                 Successful business partners having a meetin
               </h1>
 
@@ -176,14 +176,13 @@ const BlogsSide = () => {
             </div>
           </div>
         </Flex>
-
         <Flex className="items-center mt-6 mb-[30px]">
-          <div className="w-3/12">
+          <div className="w-[45%] xl:w-3/12">
             <div className="h-[92px] w-[92px] rounded-[5px] bg-gray-300"></div>
           </div>
-          <div className="w-9/12">
+          <div className="w-[55%] xl:w-9/12">
             <div>
-              <h1 className=" font-nunito font-medium xl:text-[20px] text-maintext">
+              <h1 className=" font-nunito font-medium text-[15px] 2xl:text-[20px] text-maintext">
                 Successful business partners having a meetin
               </h1>
 
@@ -196,14 +195,13 @@ const BlogsSide = () => {
             </div>
           </div>
         </Flex>
-
         <Flex className="items-center mt-6 mb-[30px]">
-          <div className="w-3/12">
+          <div className="w-[45%] xl:w-3/12">
             <div className="h-[92px] w-[92px] rounded-[5px] bg-gray-300"></div>
           </div>
-          <div className="w-9/12">
+          <div className="w-[55%] xl:w-9/12">
             <div>
-              <h1 className=" font-nunito font-medium xl:text-[20px] text-maintext">
+              <h1 className=" font-nunito font-medium text-[15px] 2xl:text-[20px] text-maintext">
                 Successful business partners having a meetin
               </h1>
 

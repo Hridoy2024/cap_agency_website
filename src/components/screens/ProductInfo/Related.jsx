@@ -27,11 +27,11 @@ const Related = () => {
         </Flex>
       </Flex>
 
-      <Flex className="items-center justify-between gap-6 mt-[46px]">
-        <Productcard className="w-[30%] mx-auto" />
-        <Productcard className="w-[30%] mx-auto" />
-        <Productcard className="w-[30%] mx-auto" />
-        <Productcard className="w-[30%] mx-auto" />
+      <Flex className="items-center flex-col sm:flex-row sm:flex-wrap xl:flex-nowrap justify-between gap-6 mt-[46px]">
+        <Productcard className=" w-full sm:w-[48%] lg:w-[30%] mx-auto" />
+        <Productcard className=" w-full sm:w-[48%] lg:w-[30%] mx-auto" />
+        <Productcard className=" w-full sm:w-[48%] lg:w-[30%] mx-auto" />
+        <Productcard className=" w-full sm:w-[48%] lg:w-[30%] mx-auto" />
       </Flex>
     </section>
   );

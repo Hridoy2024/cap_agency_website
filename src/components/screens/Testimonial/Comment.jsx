@@ -6,7 +6,7 @@ import Starrating from "../../common/Starrating";
 const Comment = ({ className }) => {
   return (
     <div
-      className={`${className} bg-lenearTwo rounded-[20px] py-[35px] pr-[49px]`}
+      className={`${className} bg-lenearTwo rounded-[20px] py-[35px] 2xl:pr-[49px] mb-4`}
     >
       <Flex className="items-center justify-between">
         <Image src="/commaorenge.png" />

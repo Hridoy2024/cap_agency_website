@@ -11,11 +11,11 @@ const AllBlogs = () => {
     <main>
       <PageBanner title="Blogs" />
       <Container>
-        <Flex className="mt-[120px] gap-6">
-          <div className="w-8/12">
+        <Flex className="mt-[50px] flex-col lg:flex-row 2xl:mt-[120px] gap-6">
+          <div className="w-full lg:w-8/12">
             <BlogsPagination itemsPerPage={12} />
           </div>
-          <div className="w-4/12">
+          <div className="w-full lg:w-4/12">
             <BlogsSide />
           </div>
         </Flex>

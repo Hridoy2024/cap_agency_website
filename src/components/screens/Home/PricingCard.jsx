@@ -7,7 +7,7 @@ import { FaCheckCircle } from "react-icons/fa";
 
 const PricingCard = () => {
   return (
-    <div className="w-[90%] mx-auto sm:w-[48%] md:w-[30%] rounded-[50px] bg-[#F4F4FF] relative">
+    <div className="w-[100%] mx-auto sm:w-[48%] md:w-[30%] rounded-[50px] bg-[#F4F4FF] relative">
       <Image
         src="/shape.png"
         className=" w-[45%] 2xl:w-auto absolute top-0 right-0"

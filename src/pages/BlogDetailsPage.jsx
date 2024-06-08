@@ -22,26 +22,26 @@ const BlogDetailsPage = () => {
     <main>
       <PageBanner title="Blog Details" />
       <Container>
-        <Flex className="mt-[120px] gap-[90px] justify-between">
-          <div className="w-8/12">
-            <div className=" w-full h-[647px] rounded-[20px] bg-gray-300"></div>
+        <Flex className="mt-[120px] flex-col md:flex-row gap-[90px] justify-between">
+          <div className="w-full lg:w-8/12">
+            <div className=" w-full h-[300px] 2xl:h-[647px] rounded-[20px] bg-gray-300"></div>
             <div className="mt-[23px]">
               <Flex className="items-center gap-10">
                 <Flex className="items-center gap-[6px]">
                   <GrAnnounce className=" text-primary" />{" "}
-                  <p className=" font-dm font-normal xl:text-[16px] leading-[26px] text-secondarytext">
+                  <p className=" font-dm font-normal text-[10px] 2xl:text-[16px] leading-[26px] text-secondarytext">
                     Business Planning
                   </p>
                 </Flex>
                 <Flex className="items-center gap-[6px]">
                   <IoChatbubblesOutline className=" text-primary" />{" "}
-                  <p className=" font-dm font-normal xl:text-[16px] leading-[26px] text-secondarytext">
+                  <p className=" font-dm font-normal text-[10px] 2xl:text-[16px] leading-[26px] text-secondarytext">
                     25
                   </p>
                 </Flex>
                 <Flex className="items-center gap-[6px]">
                   <LuEye className=" text-primary" />{" "}
-                  <p className=" font-dm font-normal xl:text-[16px] leading-[26px] text-secondarytext">
+                  <p className=" font-dm font-normal text-[10px] 2xl:text-[16px] leading-[26px] text-secondarytext">
                     120 Views
                   </p>
                 </Flex>
@@ -54,13 +54,13 @@ const BlogDetailsPage = () => {
               </h1>
 
               <Flex className="items-center gap-[10px] mt-[19px]">
-                <div className=" h-[45px] w-[45px] rounded-[5px] bg-primary py-[5px] px-[11px] inline-flex items-center justify-center">
+                <div className=" hidden md:inline-flex h-[45px] w-[45px] rounded-[5px] bg-primary py-[5px] px-[11px]  items-center justify-center">
                   <span className=" font-dm font-bold xl:text-[25px] text-white">
                     M
                   </span>
                 </div>
 
-                <p className=" font-dm font-normal xl:text-[16px] leading-[26px] text-secondarytext xl:w-[828px]">
+                <p className=" font-dm font-normal xl:text-[16px] leading-[26px] text-secondarytext w-auto xl:w-[828px]">
                   posuere morbi leo urna molestie at. Ipsum dolor sit amet
                   consectetur adipiscing elit pellentesqu habitant morbi Odio ut
                   enim blandit volutpat maecenas volutpat. Tristique magna sit
@@ -68,7 +68,7 @@ const BlogDetailsPage = () => {
                 </p>
               </Flex>
 
-              <p className=" font-dm font-normal xl:text-[16px] leading-[26px] text-secondarytext xl:w-[889px]">
+              <p className=" font-dm font-normal xl:text-[16px] leading-[26px] text-secondarytext w-auto xl:w-[889px]">
                 Posuere morbi leo urna molestie at. Ipsum dolor sit amet
                 consectetur adipiscing elit pellentesqu habitant morbi. Odio ut
                 enim blandit volutpat maecenas volutpat. Tristique magna sit
@@ -99,11 +99,11 @@ const BlogDetailsPage = () => {
               </div>
             </Flex>
 
-            <Flex className="justify-between items-start gap-10 mt-10">
-              <div className="w-5/12">
+            <Flex className="justify-between flex-col md:flex-row items-start gap-10 mt-10">
+              <div className="w-full md:w-5/12">
                 <div className="w-full h-[309px] rounded-[20px] bg-gray-300"></div>
               </div>
-              <div className="w-7/12">
+              <div className="w-full md:w-7/12">
                 <h1 className=" font-nunito font-bold xl:text-[25px] text-maintext">
                   Let our investment management team
                 </h1>
@@ -145,10 +145,10 @@ const BlogDetailsPage = () => {
               elit ut aliquam purus sit amet luctus
             </p>
 
-            <Flex className="mt-9 items-center justify-between gap-5">
-              <div className="w-1/3 h-[282px] rounded-[20px] bg-gray-300"></div>
-              <div className="w-1/3 h-[282px] rounded-[20px] bg-gray-300"></div>
-              <div className="w-1/3 h-[282px] rounded-[20px] bg-gray-300"></div>
+            <Flex className="mt-9 items-center flex-col md:flex-row justify-between gap-5">
+              <div className="w-full md:w-1/3 h-[282px] rounded-[20px] bg-gray-300"></div>
+              <div className="w-full md:w-1/3 h-[282px] rounded-[20px] bg-gray-300"></div>
+              <div className="w-full md:w-1/3 h-[282px] rounded-[20px] bg-gray-300"></div>
             </Flex>
 
             <p className=" font-dm font-normal xl:text-[16px] leading-[26px] text-secondarytext mt-[30px]">
@@ -159,8 +159,8 @@ const BlogDetailsPage = () => {
               elit ut aliquam purus sit amet luctus
             </p>
 
-            <Flex className="mt-[30px] rounded-[20px] justify-between bg-[#F4F4FF] p-[38px]">
-              <Flex className=" items-center gap-5">
+            <Flex className="mt-[30px] flex-col md:flex-row rounded-[20px] justify-between bg-[#F4F4FF] p-[38px]">
+              <Flex className=" items-center flex-wrap gap-5">
                 <p className=" font-nunito font-bold xl:text-[25px] text-maintext">
                   Tag:
                 </p>
@@ -178,7 +178,7 @@ const BlogDetailsPage = () => {
 
               <Flex className="items-center gap-5">
                 <p className=" font-nunito font-bold xl:text-[25px] text-maintext">
-                  Share::
+                  Share:
                 </p>
                 <Flex className=" items-center justify-start gap-3 mt-2 w-full ">
                   <a
@@ -219,13 +219,13 @@ const BlogDetailsPage = () => {
               </p>
 
               <div className="mt-9">
-                <Flex className="p-[35px] bg-[#F4F4FF] rounded-[20px] mb-[30px]">
-                  <div className="w-1/12">
-                    <div className="h-[68px] w-[68px] rounded-full bg-gray-300"></div>
+                <Flex className="p-3 flex-col md:flex-row 2xl:p-[35px] bg-[#F4F4FF] rounded-[20px] mb-[30px]">
+                  <div className="w-full md:w-1/12">
+                    <div className="h-[68px] w-[68px] mb-3 rounded-full bg-gray-300"></div>
                   </div>
 
-                  <div className="w-8/12">
-                    <div className="ml-[26px]">
+                  <div className="w-full md:w-8/12">
+                    <div className="ml-0 2xl:ml-[26px]">
                       <h1 className=" font-dm font-medium xl:text-[20px] text-maintext">
                         Abubokkor Siddik
                       </h1>
@@ -241,20 +241,19 @@ const BlogDetailsPage = () => {
                     </div>
                   </div>
 
-                  <div className="w-3/12">
-                    <button className=" ml-auto mt-[50px] font-dm font-normal xl:text-[16px] leading-[16px] text-white py-[11px] px-[29px] rounded-full bg-lenearOne flex items-center justify-center">
+                  <div className="w-full md:w-3/12">
+                    <button className=" ml-0 2xl:ml-auto mt-[50px] font-dm font-normal xl:text-[16px] leading-[16px] text-white py-[11px] px-[29px] rounded-full bg-lenearOne flex items-center justify-center">
                       Read More
                     </button>
                   </div>
                 </Flex>
-
-                <Flex className="p-[35px] bg-[#F4F4FF] rounded-[20px] mb-[30px]">
-                  <div className="w-1/12">
-                    <div className="h-[68px] w-[68px] rounded-full bg-gray-300"></div>
+                <Flex className="p-3 flex-col md:flex-row 2xl:p-[35px] bg-[#F4F4FF] rounded-[20px] mb-[30px]">
+                  <div className="w-full md:w-1/12">
+                    <div className="h-[68px] w-[68px] mb-3 rounded-full bg-gray-300"></div>
                   </div>
 
-                  <div className="w-8/12">
-                    <div className="ml-[26px]">
+                  <div className="w-full md:w-8/12">
+                    <div className="ml-0 2xl:ml-[26px]">
                       <h1 className=" font-dm font-medium xl:text-[20px] text-maintext">
                         Abubokkor Siddik
                       </h1>
@@ -270,20 +269,19 @@ const BlogDetailsPage = () => {
                     </div>
                   </div>
 
-                  <div className="w-3/12">
-                    <button className=" ml-auto mt-[50px] font-dm font-normal xl:text-[16px] leading-[16px] text-white py-[11px] px-[29px] rounded-full bg-lenearOne flex items-center justify-center">
+                  <div className="w-full md:w-3/12">
+                    <button className=" ml-0 2xl:ml-auto mt-[50px] font-dm font-normal xl:text-[16px] leading-[16px] text-white py-[11px] px-[29px] rounded-full bg-lenearOne flex items-center justify-center">
                       Read More
                     </button>
                   </div>
                 </Flex>
-
-                <Flex className="p-[35px] bg-[#F4F4FF] rounded-[20px] mb-[30px]">
-                  <div className="w-1/12">
-                    <div className="h-[68px] w-[68px] rounded-full bg-gray-300"></div>
+                <Flex className="p-3 flex-col md:flex-row 2xl:p-[35px] bg-[#F4F4FF] rounded-[20px] mb-[30px]">
+                  <div className="w-full md:w-1/12">
+                    <div className="h-[68px] w-[68px] mb-3 rounded-full bg-gray-300"></div>
                   </div>
 
-                  <div className="w-8/12">
-                    <div className="ml-[26px]">
+                  <div className="w-full md:w-8/12">
+                    <div className="ml-0 2xl:ml-[26px]">
                       <h1 className=" font-dm font-medium xl:text-[20px] text-maintext">
                         Abubokkor Siddik
                       </h1>
@@ -299,37 +297,8 @@ const BlogDetailsPage = () => {
                     </div>
                   </div>
 
-                  <div className="w-3/12">
-                    <button className=" ml-auto mt-[50px] font-dm font-normal xl:text-[16px] leading-[16px] text-white py-[11px] px-[29px] rounded-full bg-lenearOne flex items-center justify-center">
-                      Read More
-                    </button>
-                  </div>
-                </Flex>
-
-                <Flex className="p-[35px] bg-[#F4F4FF] rounded-[20px] mb-[30px]">
-                  <div className="w-1/12">
-                    <div className="h-[68px] w-[68px] rounded-full bg-gray-300"></div>
-                  </div>
-
-                  <div className="w-8/12">
-                    <div className="ml-[26px]">
-                      <h1 className=" font-dm font-medium xl:text-[20px] text-maintext">
-                        Abubokkor Siddik
-                      </h1>
-
-                      <p className=" font-dm font-normal xl:text-[14px] leading-[26px] text-maintext">
-                        Dec 16, 2022
-                      </p>
-
-                      <p className=" font-dm font-normal xl:text-[16px] leading-[26px] text-secondarytext mt-[7px]">
-                        Simply dummy text of the printing and typesetting
-                        industry.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="w-3/12">
-                    <button className=" ml-auto mt-[50px] font-dm font-normal xl:text-[16px] leading-[16px] text-white py-[11px] px-[29px] rounded-full bg-lenearOne flex items-center justify-center">
+                  <div className="w-full md:w-3/12">
+                    <button className=" ml-0 2xl:ml-auto mt-[50px] font-dm font-normal xl:text-[16px] leading-[16px] text-white py-[11px] px-[29px] rounded-full bg-lenearOne flex items-center justify-center">
                       Read More
                     </button>
                   </div>
@@ -343,7 +312,7 @@ const BlogDetailsPage = () => {
               </p>
 
               <form action="" className="mt-10">
-                <Flex className="items-center gap-5">
+                <Flex className="items-center flex-col md:flex-row gap-5">
                   <input
                     className="mb-5 py-[15px] px-[26px] bg-[#F4F4FF] rounded-full w-full font-dm font-normal xl:text-[16px] outline-none"
                     placeholder="Your Name"
@@ -381,7 +350,7 @@ const BlogDetailsPage = () => {
               </form>
             </div>
           </div>
-          <div className="w-4/12">
+          <div className="w-full lg:w-4/12">
             <BlogsSide />
           </div>
         </Flex>

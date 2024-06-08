@@ -19,9 +19,9 @@ const Portfoliodetails = () => {
     <main>
       <PageBanner title="Portfolio Details" />
       <Container>
-        <div className="mt-[120px] rounded-[20px] bg-gray-300 h-[662px]"></div>
-        <Flex className="mt-[60px] items-center justify-between rounded-[20px] p-[60px] bg-[#F4F4FF]">
-          <div className="w-3/12">
+        <div className="mt-[50px] 2xl:mt-[120px] rounded-[20px] bg-gray-300 h-[400px] 2xl:h-[662px]"></div>
+        <Flex className="mt-[30px] 2xl:mt-[60px] flex-col md:flex-row items-center justify-between rounded-[20px] p-[30px] 2xl:p-[60px] bg-[#F4F4FF]">
+          <div className="w-full md:w-3/12">
             <Flex className=" items-center ">
               <Flex className="w-6/12 items-center font-dm font-medium xl:text-[20px] leading-[40px]">
                 <p className=" text-maintext">Start Date:</p>
@@ -47,7 +47,7 @@ const Portfoliodetails = () => {
             </Flex>
           </div>
 
-          <div className="w-3/12">
+          <div className="w-full md:w-3/12">
             <Flex className=" items-center ">
               <Flex className="w-6/12 items-center font-dm font-medium xl:text-[20px] leading-[40px]">
                 <p className=" text-maintext">Client:</p>
@@ -73,7 +73,7 @@ const Portfoliodetails = () => {
             </Flex>
           </div>
 
-          <div className="w-3/12">
+          <div className="w-full md:w-3/12">
             <Flex className=" items-center ">
               <Flex className="w-6/12 items-center font-dm font-medium xl:text-[20px] leading-[40px]">
                 <p className=" text-maintext">Website:</p>
@@ -101,12 +101,12 @@ const Portfoliodetails = () => {
         </Flex>
 
         <div className="mt-[53px]">
-          <h1 className=" font-nunito font-bold xl:text-[25px] text-maintext">
+          <h1 className=" font-nunito font-bold text-[20px] 2xl:text-[25px] text-maintext">
             Human Figurines Using Ladder to Reach Cracked lit Lightbulb as an
             Idea
           </h1>
 
-          <p className=" font-dm font-normal xl:text-[16px] leading-[26px] text-secondarytext mt-[17px]">
+          <p className=" font-dm font-normal text-[16px] 2xl:text-[16px] leading-[26px] text-secondarytext mt-[17px]">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
             humour, or randomised words which don't look as even slightly
@@ -121,56 +121,56 @@ const Portfoliodetails = () => {
           </p>
         </div>
 
-        <Flex className="mt-[57px] gap-[60px] justify-between">
-          <div className="w-1/2">
-            <UL className="flex flex-wrap mt-7">
-              <LI className="w-1/2  flex items-center gap-2 font-dm font-normal xl:text-[16px] leading-[26px] text-maintext">
-                <FaCheckCircle className="text-orange" /> Research beyond the
-                business plan{" "}
-              </LI>
-              <LI className="w-1/2  flex items-center gap-2 font-dm font-normal xl:text-[16px] leading-[26px] text-maintext">
-                <FaCheckCircle className="text-orange" /> Research beyond the
-                business plan{" "}
-              </LI>
-              <LI className="w-1/2  flex items-center gap-2 font-dm font-normal xl:text-[16px] leading-[26px] text-maintext">
-                <FaCheckCircle className="text-orange" /> Research beyond the
-                business plan{" "}
-              </LI>
-              <LI className="w-1/2  flex items-center gap-2 font-dm font-normal xl:text-[16px] leading-[26px] text-maintext">
+        <Flex className="mt-[57px] flex-col md:flex-row gap-[60px] justify-between">
+          <div className="w-full md:w-1/2">
+            <UL className="flex flex-col md:flex-row md:flex-wrap mt-7">
+              <LI className="w-full md:w-1/2  flex items-center gap-2 font-dm font-normal text-[15px] 2xl:text-[16px] leading-[26px] text-maintext">
                 <FaCheckCircle className="text-orange" /> Research beyond the
                 business plan
+              </LI>
+              <LI className="w-full md:w-1/2  flex items-center gap-2 font-dm font-normal text-[15px] 2xl:text-[16px] leading-[26px] text-maintext">
+                <FaCheckCircle className="text-orange" /> Research beyond the
+                business plan
+              </LI>
+              <LI className="w-full md:w-1/2  flex items-center gap-2 font-dm font-normal text-[15px] 2xl:text-[16px] leading-[26px] text-maintext">
+                <FaCheckCircle className="text-orange" /> Research beyond the
+                business plan
+              </LI>
+              <LI className="w-full md:w-1/2  flex items-center gap-2 font-dm font-normal text-[15px] 2xl:text-[16px] leading-[26px] text-maintext">
+                <FaCheckCircle className="text-orange" /> Research beyond the
+                business
               </LI>
 
-              <LI className="w-1/2  flex items-center gap-2 font-dm font-normal xl:text-[16px] leading-[26px] text-maintext">
-                <FaCheckCircle className="text-orange" /> Research beyond the
-                business plan{" "}
-              </LI>
-              <LI className="w-1/2  flex items-center gap-2 font-dm font-normal xl:text-[16px] leading-[26px] text-maintext">
-                <FaCheckCircle className="text-orange" /> Research beyond the
-                business plan{" "}
-              </LI>
-              <LI className="w-1/2  flex items-center gap-2 font-dm font-normal xl:text-[16px] leading-[26px] text-maintext">
+              <LI className="w-full md:w-1/2  flex items-center gap-2 font-dm font-normal text-[15px] 2xl:text-[16px] leading-[26px] text-maintext">
                 <FaCheckCircle className="text-orange" /> Research beyond the
                 business plan
               </LI>
-              <LI className="w-1/2  flex items-center gap-2 font-dm font-normal xl:text-[16px] leading-[26px] text-maintext">
+              <LI className="w-full md:w-1/2  flex items-center gap-2 font-dm font-normal text-[15px] 2xl:text-[16px] leading-[26px] text-maintext">
                 <FaCheckCircle className="text-orange" /> Research beyond the
                 business plan
+              </LI>
+              <LI className="w-full md:w-1/2  flex items-center gap-2 font-dm font-normal text-[15px] 2xl:text-[16px] leading-[26px] text-maintext">
+                <FaCheckCircle className="text-orange" /> Research beyond the
+                business
+              </LI>
+              <LI className="w-full md:w-1/2  flex items-center gap-2 font-dm font-normal text-[15px] 2xl:text-[16px] leading-[26px] text-maintext">
+                <FaCheckCircle className="text-orange" /> Research beyond the
+                business
               </LI>
             </UL>
 
-            <Flex className="mt-[57px] gap-[22px]">
-              <div className="w-1/2">
+            <Flex className="mt-[57px] flex-col md:flex-row gap-[22px]">
+              <div className="w-full md:w-1/2">
                 <div className="w-full h-[335px] rounded-[20px] bg-gray-300"></div>
               </div>
-              <div className="w-1/2">
+              <div className="w-full md:w-1/2">
                 <div className="w-full h-[335px] rounded-[20px] bg-gray-300"></div>
               </div>
             </Flex>
           </div>
 
-          <div className="w-1/2">
-            <div className="w-[586px] rounded-[20px] py-8 px-10 bg-[#F4F4FF] ml-auto">
+          <div className="w-full md:w-1/2">
+            <div className=" w-auto 2xl:w-[586px] rounded-[20px] py-8 px-10 bg-[#F4F4FF] ml-auto">
               <h1 className=" font-nunito font-bold xl:text-[25px] text-maintext">
                 Need Your Help?
               </h1>
@@ -179,17 +179,17 @@ const Portfoliodetails = () => {
                 <div className="w-[20%] h-full bg-lenearOne"></div>
               </div>
 
-              <UL className="flex flex-wrap mt-7">
-                <LI className="w-1/2  flex items-center gap-7 font-dm font-normal xl:text-[16px] leading-[26px] text-maintext">
+              <UL className="flex flex-col md:flex-row md:flex-wrap mt-7">
+                <LI className="w-full md:w-1/2  flex items-center gap-7 font-dm font-normal xl:text-[16px] leading-[26px] text-maintext">
                   <FaPhone className="text-orange" /> Digital Strategy
                 </LI>
-                <LI className="w-1/2  flex items-center gap-7 font-dm font-normal xl:text-[16px] leading-[26px] text-maintext">
+                <LI className="w-full md:w-1/2  flex items-center gap-7 font-dm font-normal xl:text-[16px] leading-[26px] text-maintext">
                   <BsEnvelopeFill className="text-orange" /> SEO Optimization
                 </LI>
-                <LI className="w-1/2  flex items-center gap-7 font-dm font-normal xl:text-[16px] leading-[26px] text-maintext">
+                <LI className="w-full md:w-1/2  flex items-center gap-7 font-dm font-normal xl:text-[16px] leading-[26px] text-maintext">
                   <FaSkype className="text-orange" /> Marketing
                 </LI>
-                <LI className="w-1/2  flex items-center gap-7 font-dm font-normal xl:text-[16px] leading-[26px] text-maintext">
+                <LI className="w-full md:w-1/2  flex items-center gap-7 font-dm font-normal xl:text-[16px] leading-[26px] text-maintext">
                   <FaLocationDot className="text-orange" /> First Working
                   Process
                 </LI>
@@ -218,19 +218,19 @@ const Portfoliodetails = () => {
           </h1>
 
           <Flex className="items-center gap-5">
-            <button className="h-[60px] w-[60px] rounded-full bg-lenearOne flex items-center justify-center">
-              <FaArrowLeftLong className="text-[22px] text-white" />
+            <button className=" h-[30px] w-[30px] 2xl:h-[60px] 2xl:w-[60px] rounded-full bg-lenearOne flex items-center justify-center">
+              <FaArrowLeftLong className=" text-[12px] 2xl:text-[22px] text-white" />
             </button>
-            <button className="h-[60px] w-[60px] rounded-full bg-lenearOne flex items-center justify-center ">
-              <FaArrowRightLong className="text-[22px] text-white" />
+            <button className=" h-[30px] w-[30px] 2xl:h-[60px] 2xl:w-[60px] rounded-full bg-lenearOne flex items-center justify-center ">
+              <FaArrowRightLong className=" text-[12px] 2xl:text-[22px] text-white" />
             </button>
           </Flex>
         </Flex>
 
-        <Flex className=" items-center justify-between gap-6 mt-[46px]">
-          <div className="w-[33%] h-[462px] rounded-[10px] bg-gray-300"></div>
-          <div className="w-[33%] h-[462px] rounded-[10px] bg-gray-300"></div>
-          <div className="w-[33%] h-[462px] rounded-[10px] bg-gray-300"></div>
+        <Flex className=" items-center flex-col sm:flex-row sm:flex-wrap justify-between gap-6 mt-[46px]">
+          <div className=" w-full sm:w-[48%] md:w-[30%] 2xl:w-[33%] h-[462px] rounded-[10px] bg-gray-300"></div>
+          <div className=" w-full sm:w-[48%] md:w-[30%] 2xl:w-[33%] h-[462px] rounded-[10px] bg-gray-300"></div>
+          <div className=" w-full sm:w-[48%] md:w-[30%] 2xl:w-[33%] h-[462px] rounded-[10px] bg-gray-300"></div>
         </Flex>
       </Container>
     </main>

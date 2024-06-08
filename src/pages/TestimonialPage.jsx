@@ -10,6 +10,7 @@ import "slick-carousel/slick/slick-theme.css";
 const TestimonialPage = () => {
   const [slide, setSlide] = useState(0);
   const settings = {
+    arrows: false,
     dots: true,
     infinite: true,
     speed: 500,
@@ -62,6 +63,39 @@ const TestimonialPage = () => {
         }
       ></div>
     ),
+
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          rows: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          rows: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     <main>
@@ -72,14 +106,15 @@ const TestimonialPage = () => {
 
           <div className="mt-[46px] w-full">
             <Slider {...settings}>
-              <Comment className="w-[95%] mx-auto" />
-              <Comment className="w-[95%] mx-auto" />
-              <Comment className="w-[95%] mx-auto" />
-              <Comment className="w-[95%] mx-auto" />
-              <Comment className="w-[95%] mx-auto" />
-              <Comment className="w-[95%] mx-auto" />
-              <Comment className="w-[95%] mx-auto" />
-              <Comment className="w-[95%] mx-auto" />
+              <div className=" w-full block">
+                <Comment className=" w-[96%] md:w-[90%] 2xl:w-[95%] mx-auto" />
+              </div>
+              <div className=" w-full block">
+                <Comment className=" w-[96%] md:w-[90%] 2xl:w-[95%] mx-auto" />
+              </div>
+              <div className=" w-full block">
+                <Comment className=" w-[96%] md:w-[90%] 2xl:w-[95%] mx-auto" />
+              </div>
             </Slider>
           </div>
         </div>

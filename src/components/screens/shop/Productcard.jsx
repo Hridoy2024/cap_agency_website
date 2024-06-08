@@ -26,7 +26,7 @@ const Productcard = ({ className }) => {
         </div>
       </Flex>
 
-      <div className="w-[212px] h-[258px] bg-gray-300 mx-auto mt-[50px] mb-[43px]"></div>
+      <div className=" w-auto 2xl:w-[212px] h-[258px] bg-gray-300 mx-auto mt-[50px] mb-[43px]"></div>
 
       <a
         onClick={() => navigate("/product")}

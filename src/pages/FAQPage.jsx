@@ -12,8 +12,8 @@ const FAQPage = () => {
     <main>
       <PageBanner title="Faq" />
       <Container>
-        <Flex className="mt-[120px]">
-          <div className="w-1/2">
+        <Flex className="mt-[50px] flex-col gap-10 md:flex-row 2xl:mt-[120px]">
+          <div className="w-full md:w-1/2">
             <Flex className="items-center gap-[10px]">
               <TbTargetArrow className="text-[22px] text-orange" />{" "}
               <p className=" font-dm font-medium xl:text-[20px] text-primary">
@@ -25,33 +25,33 @@ const FAQPage = () => {
               Frequently Asked Questions
             </h1>
 
-            <Flex className="items-start justify-between">
-              <div className="w-1/2">
-                <button className=" mt-5 flex items-center gap-[15px] py-[17px] px-[30px] bg-[#F4F4FF]  rounded-full">
+            <Flex className="items-start flex-col gap-5 lg:flex-row justify-between">
+              <div className="w-full lg:w-1/2">
+                <button className=" w-full lg:w-auto mt-5 flex items-center justify-center gap-[15px] py-[17px] px-[30px] bg-[#F4F4FF]  rounded-full">
                   <Image src="/qu.png" />{" "}
                   <p className=" font-dm font-medium xl:text-[20px] text-maintext">
                     General Questions
                   </p>
                 </button>
-                <button className=" mt-5 flex items-center gap-[15px] py-[17px] px-[30px] bg-[#F4F4FF]  rounded-full">
+                <button className=" w-full lg:w-auto mt-5 flex items-center justify-center gap-[15px] py-[17px] px-[30px] bg-[#F4F4FF]  rounded-full">
                   <Image src="/qu.png" />{" "}
                   <p className=" font-dm font-medium xl:text-[20px] text-maintext">
                     General Questions
                   </p>
                 </button>
-                <button className=" mt-5 flex items-center gap-[15px] py-[17px] px-[30px] bg-[#F4F4FF]  rounded-full">
+                <button className=" w-full lg:w-auto mt-5 flex items-center justify-center gap-[15px] py-[17px] px-[30px] bg-[#F4F4FF]  rounded-full">
                   <Image src="/qu.png" />{" "}
                   <p className=" font-dm font-medium xl:text-[20px] text-maintext">
                     General Questions
                   </p>
                 </button>
               </div>
-              <div className="w-1/2">
-                <Image src="/faq.png" />
+              <div className="w-full lg:w-1/2">
+                <Image className="mx-auto lg:ml-0" src="/faq.png" />
               </div>
             </Flex>
           </div>
-          <div className="w-1/2">
+          <div className="w-full md:w-1/2">
             <OneFaq />
             <OneFaq />
             <OneFaq />
@@ -60,13 +60,13 @@ const FAQPage = () => {
         </Flex>
       </Container>
 
-      <div className=" bg-chooseBg py-[120px] mt-[120px]">
+      <div className=" bg-chooseBg py-[120px] mt-[50px] 2xl:mt-[120px]">
         <Container>
-          <Flex className="gap-[85px]">
-            <div className="w-1/2">
-              <div className="w-full h-full rounded-[20px] bg-gray-400"> </div>
+          <Flex className="gap-[85px] flex-col md:flex-row">
+            <div className="w-full md:w-1/2">
+              <div className="w-full h-[300px] 2xl:h-full rounded-[20px] bg-gray-400"></div>
             </div>
-            <div className="w-1/2">
+            <div className="w-full md:w-1/2">
               <h1 className=" font-nunito font-bold xl:text-[46px] leading-[36px] text-maintext">
                 Contact Me
               </h1>
@@ -76,7 +76,7 @@ const FAQPage = () => {
                 marked
               </p>
               <form action="" className="mt-[25px]">
-                <Flex className="items-center gap-5">
+                <Flex className="items-center flex-col md:flex-row gap-5">
                   <input
                     className="mb-5 py-[15px] px-[26px] bg-white rounded-full w-full font-dm font-normal xl:text-[16px] outline-none"
                     placeholder="Your Name"
